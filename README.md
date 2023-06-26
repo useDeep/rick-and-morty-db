@@ -1,3 +1,10 @@
+# Rick and Morty DB 
+is a follow-along project built using react and NextJs 13, bootstrap and sass (scss) for styling, [react-paginate](https://www.npmjs.com/package/react-paginate) for pagination and [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner) for loading state UI.
+
+The api used to restful and this is the [link](https://rickandmortyapi.com/) for that.
+
+> The original project is built using just react (not next) and the link to that [tutorial](https://www.youtube.com/watch?v=35QCQnohLg8).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
