@@ -2,7 +2,7 @@ import Link from "next/link"
 import styles from "./Card.module.scss"
 
 const Card = ({results}) => {
-  let path= window.location.pathname
+  let location= window.location.href
 
   let display;
 
@@ -11,7 +11,7 @@ const Card = ({results}) => {
       <div className="col-lg-4 col-md-6 col-12 position-relative" key={result.id}>
         <div className="bg-white shadow rounded mb-4">
           <Link 
-          href={`${path}/${result.id}`}
+          href={`${location}/${result.id}`}
           className="text-decoration-none text-black"
           >
             
